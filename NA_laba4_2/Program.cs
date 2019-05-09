@@ -30,6 +30,8 @@ namespace NA_laba4_2
                 e1[i] = x_k_1[i] / norma;
             double[] x_k = Matrix.MulMatrix(A, e1, e1.Length, e1.Length);
             double[] lambd;// хз как ее правильно обозначить, вроде это число должно быть
+            for (int i = 0; i < x_k_1.Length; i++) ;
+
             return lambda;
         }
 
